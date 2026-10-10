@@ -1,0 +1,45 @@
+{
+  "families": {
+    "Source Serif 4": {
+      "file": "SourceSerif4Variable-Roman.ttf",
+      "axes": {
+        "wght": [
+          200,
+          900
+        ]
+      },
+      "use": "English display titles; 300 Light and 400 Regular"
+    },
+    "Inter": {
+      "file": "InterVariable.ttf",
+      "axes": {
+        "wght": [
+          100,
+          900
+        ]
+      },
+      "use": "data labels; 400 Regular and 500 Medium"
+    },
+    "Source Han Serif SC": {
+      "file": "SourceHanSerifSC-AtlasSubset.otf",
+      "use": "Chinese body copy; 400 Regular; subset for the shipped interface copy",
+      "shippedCjkCodepoints": 319,
+      "sources": [
+        "index.html",
+        "src/main.js",
+        "data/**/*.json",
+        "data/**/*.csv"
+      ]
+    }
+  },
+  "headings": [
+    "form",
+    "distribution",
+    "scale",
+    "earth",
+    "time",
+    "terrain",
+    "identity"
+  ],
+  "offline": true
+}

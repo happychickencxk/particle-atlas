@@ -1,0 +1,6 @@
+# Preserve frozen data and built resources byte for byte.
+* -text
+*.png binary
+*.jpg binary
+*.ttf binary
+*.otf binary

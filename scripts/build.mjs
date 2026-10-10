@@ -1,0 +1,10 @@
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const modules=process.env.ATLAS_BUILD_MODULES;
+const require=createRequire(modules?path.join(modules,'../package.json'):path.join(root,'package.json'));
+const esbuild=require('esbuild');
+await import('../src/build.mjs');
+await esbuild.build({entryPoints:[path.join(root,'src/main.js')],outfile:path.join(root,'assets/atlas.js'),bundle:true,format:'iife',target:['chrome110'],minify:true,legalComments:'eof',nodePaths:modules?[modules]:[]});
+console.log('Offline classic-script bundle built.');

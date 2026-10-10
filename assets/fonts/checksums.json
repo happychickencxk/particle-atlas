@@ -1,0 +1,17 @@
+[
+  {
+    "path": "assets\\fonts\\InterVariable.ttf",
+    "bytes": 879708,
+    "sha256": "4989b125924991b90d05b2d16e0e388c48f7d5bb8b30539bbf9c755278d0ccaf"
+  },
+  {
+    "path": "assets\\fonts\\SourceHanSerifSC-AtlasSubset.otf",
+    "bytes": 204220,
+    "sha256": "cc6aa18a0ba346bd3a328a8de4e47814400f4a51564b5a3bf797192af1ab8952"
+  },
+  {
+    "path": "assets\\fonts\\SourceSerif4Variable-Roman.ttf",
+    "bytes": 1204208,
+    "sha256": "14d360ee1b76655da9276628b229e11671bc1f5d1083636144db6677d452cf55"
+  }
+]

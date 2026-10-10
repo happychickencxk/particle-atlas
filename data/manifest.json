@@ -1,0 +1,268 @@
+{
+  "snapshotDate": "2026-10-10",
+  "generatedAtUtc": "2026-10-09T17:40:34.131214+00:00",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/main/inst/extdata/penguins.csv",
+      "path": "raw\\penguins.csv",
+      "sha256": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93",
+      "bytes": 15241,
+      "downloaded": false
+    },
+    {
+      "url": "https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL?format=json&date=2025&per_page=20000",
+      "path": "raw\\population.json",
+      "sha256": "686dfeeb6dcf733f97dcd64e6bf34a23d96997a9314ffb423e503c5ded45c51c",
+      "bytes": 53610,
+      "downloaded": false
+    },
+    {
+      "url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+      "path": "raw\\countries.json",
+      "sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce",
+      "bytes": 113954,
+      "downloaded": false
+    },
+    {
+      "url": "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv",
+      "path": "raw\\gistemp.csv",
+      "sha256": "4c64eda288bce32b8d76926278f346ecea1e53506df8ee72a3d5accb0657c416",
+      "bytes": 12886,
+      "downloaded": false
+    },
+    {
+      "url": "https://earthquake.usgs.gov/fdsnws/event/1/query.geojson?format=geojson&starttime=2026-09-01&endtime=2026-10-01&minmagnitude=4.5&eventtype=earthquake&orderby=time-asc",
+      "path": "raw\\earthquakes.geojson",
+      "sha256": "29a3b0bf6c03e8b65b69fee3c5703b705bede2d142b892ed3e0cec802d08004d",
+      "bytes": 404746,
+      "downloaded": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_land.geojson",
+      "path": "raw\\land.geojson",
+      "sha256": "9e0729ee253ca7d7a5c4ae9395fb1902264c5377c52e224d13dd85010e2835d9",
+      "bytes": 138160,
+      "downloaded": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_coastline.geojson",
+      "path": "raw\\coastline.geojson",
+      "sha256": "851f581ff5ffb844deed8ae1a9ce22e3c4bb3d74fa342cadb5d8e39b41ae7c3c",
+      "bytes": 139907,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3624/1615.png",
+      "path": "raw\\gsi-dem_png-z12-x3624-y1615.png",
+      "sha256": "563b798845eb11811fee82e5736ae4e9af2d083a681176adcf714a4b81ff4cb1",
+      "bytes": 127998,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3625/1615.png",
+      "path": "raw\\gsi-dem_png-z12-x3625-y1615.png",
+      "sha256": "ee89a0f4364d18d66d0ef37839bf3d4ea62522ba2c606fe85ee83300f00793fb",
+      "bytes": 117253,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3626/1615.png",
+      "path": "raw\\gsi-dem_png-z12-x3626-y1615.png",
+      "sha256": "3ee283243890e52f46b1a7c8ea524190d9bc00de57dd7ff32024bd0f18498746",
+      "bytes": 103457,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3627/1615.png",
+      "path": "raw\\gsi-dem_png-z12-x3627-y1615.png",
+      "sha256": "888dd13570bbef2f7f183bd2fa47e4dc6d11585c2428017cbdc1bb74e519730a",
+      "bytes": 120553,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3628/1615.png",
+      "path": "raw\\gsi-dem_png-z12-x3628-y1615.png",
+      "sha256": "fe1652cd88bbf0c548f89e0379f84618973173aeeffb907f0d8073dbbc2d921f",
+      "bytes": 132587,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3624/1616.png",
+      "path": "raw\\gsi-dem_png-z12-x3624-y1616.png",
+      "sha256": "b6663d1c8da0caab1ed34a0e1d7aa12ed9eb2908df78495d178bfd16e8d58172",
+      "bytes": 123706,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3625/1616.png",
+      "path": "raw\\gsi-dem_png-z12-x3625-y1616.png",
+      "sha256": "d58a00ba15b14f755943b56a83aeaf17aabd723271dc3d0cbc248b8b9d311663",
+      "bytes": 109841,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3626/1616.png",
+      "path": "raw\\gsi-dem_png-z12-x3626-y1616.png",
+      "sha256": "b616a1c546134e06da58085082b997f4c72f1869f67cd058652e8e53ec3a2d95",
+      "bytes": 114817,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3627/1616.png",
+      "path": "raw\\gsi-dem_png-z12-x3627-y1616.png",
+      "sha256": "49f6cba18278e025ec36ab6d22ffc52509002e322893a3d84a41c2c2a93ae661",
+      "bytes": 103032,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3628/1616.png",
+      "path": "raw\\gsi-dem_png-z12-x3628-y1616.png",
+      "sha256": "287596740b3a111ab3e8f56a4fa086ce87fabcd76ac598e8cc34c40df3e08fe2",
+      "bytes": 117689,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3624/1617.png",
+      "path": "raw\\gsi-dem_png-z12-x3624-y1617.png",
+      "sha256": "9798e5d6bbefd9787ef15435d767c4a099ee24825bbd05be557c5ce323542d28",
+      "bytes": 119820,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3625/1617.png",
+      "path": "raw\\gsi-dem_png-z12-x3625-y1617.png",
+      "sha256": "49a7ede24547b3c3e73a1bf667c8cafe540d45008e66c7861a823610e8752866",
+      "bytes": 114896,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3626/1617.png",
+      "path": "raw\\gsi-dem_png-z12-x3626-y1617.png",
+      "sha256": "0ef68d900af0a8f92df3d1cd79f065ffe922b06188e44c411197c843fcfb9e2e",
+      "bytes": 127126,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3627/1617.png",
+      "path": "raw\\gsi-dem_png-z12-x3627-y1617.png",
+      "sha256": "fa1c44682ee52bfba0cd9213db058e9537dd9ea74f377bd9c46e72c45a4ed076",
+      "bytes": 111938,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3628/1617.png",
+      "path": "raw\\gsi-dem_png-z12-x3628-y1617.png",
+      "sha256": "7d0a71518f4b5275eab32f5599942f3bc76c972bfe7fada4683f3b02b3659ee4",
+      "bytes": 111345,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3624/1618.png",
+      "path": "raw\\gsi-dem_png-z12-x3624-y1618.png",
+      "sha256": "0a7159a6ce04d1da3a91434923c4ad452fc3d0bc223602fe2d38522907c31a00",
+      "bytes": 120747,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3625/1618.png",
+      "path": "raw\\gsi-dem_png-z12-x3625-y1618.png",
+      "sha256": "583e1a8c182ff8cfcf61d7432a7575b0a64eff621fb784474827c6cf6679e009",
+      "bytes": 110859,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3626/1618.png",
+      "path": "raw\\gsi-dem_png-z12-x3626-y1618.png",
+      "sha256": "bacde6843a87f7c47977887bfa2ac41093819baee7ad96f99184685f2e19d4c2",
+      "bytes": 112882,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3627/1618.png",
+      "path": "raw\\gsi-dem_png-z12-x3627-y1618.png",
+      "sha256": "4448c8b15a704e51129bdabc79eae607d502c6b919d33c4337e07e9a1a593fcd",
+      "bytes": 109412,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3628/1618.png",
+      "path": "raw\\gsi-dem_png-z12-x3628-y1618.png",
+      "sha256": "1a7a5d0c8a87c23558cc0c5f536fe5d105df949b168b69ea26c88849a2e4870d",
+      "bytes": 104370,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3624/1619.png",
+      "path": "raw\\gsi-dem_png-z12-x3624-y1619.png",
+      "sha256": "b026e92adc1abda8668ea3c7369647c92d74f0eaedfe470125497bb3dd52f114",
+      "bytes": 120389,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3625/1619.png",
+      "path": "raw\\gsi-dem_png-z12-x3625-y1619.png",
+      "sha256": "10cbc4b0eace88f7ed809c5424c4da7abfebd28a57a67b503943fee4a145c1e7",
+      "bytes": 105982,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3626/1619.png",
+      "path": "raw\\gsi-dem_png-z12-x3626-y1619.png",
+      "sha256": "9429edcf01449d2f52405a0ef3b5a8d1ccc17878dfc11739b5331b8d3402c8c4",
+      "bytes": 118599,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3627/1619.png",
+      "path": "raw\\gsi-dem_png-z12-x3627-y1619.png",
+      "sha256": "6439d1dffec57492b2369da57b5d64e5fb94638387f81c051268613c97b3616a",
+      "bytes": 130820,
+      "downloaded": false
+    },
+    {
+      "url": "https://cyberjapandata.gsi.go.jp/xyz/dem_png/12/3628/1619.png",
+      "path": "raw\\gsi-dem_png-z12-x3628-y1619.png",
+      "sha256": "aee938310c0d148b1fac0b519ed76850497c6e50eaf2dd3bfd3283327e637d57",
+      "bytes": 115792,
+      "downloaded": false
+    }
+  ],
+  "cleaning": {
+    "penguins": {
+      "rawRows": 344,
+      "validRows": 342,
+      "rule": "non-null flipper_length_mm and body_mass_g"
+    },
+    "population": {
+      "year": 2025,
+      "eligibleEconomies": 217,
+      "aggregateRule": "country metadata region.id != NA"
+    },
+    "temperature": {
+      "column": "J-D",
+      "units": "degC",
+      "baseline": "1951-1980",
+      "range": "1880-2025"
+    },
+    "earthquakes": {
+      "startUtc": "2026-09-01T00:00:00Z",
+      "endUtc": "2026-10-01T00:00:00Z",
+      "minMagnitude": 4.5,
+      "eventType": "earthquake"
+    },
+    "terrain": {
+      "bbox": [
+        138.56,
+        35.22,
+        138.9,
+        35.5
+      ],
+      "grid": "256x256",
+      "noData": "weighted interpolation from valid GSI neighbours; errors if unresolved",
+      "contourInterval_m": 250,
+      "projection": "WGS84 local tangent plane at bbox centre; east=N(phi0)*cos(phi0)*delta_lon, north=M(phi0)*delta_lat",
+      "sourceResolution_m": 31.168,
+      "displaySampleSpacing_m": 121.824
+    }
+  }
+}
